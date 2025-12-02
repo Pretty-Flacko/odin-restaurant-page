@@ -54,11 +54,12 @@ header nav button:hover {
     align-items: center;
     gap: 1rem;
 }
-.content-leftside h1 {
+.content-leftside h2 {
     font-size: 3rem;
 }
-.content-leftside h2 {
+.content-leftside span {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 .content-leftside p {
     font-size: 1.2rem;

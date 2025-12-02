@@ -12,11 +12,11 @@ export default function loadHome() {
     const leftSide = document.createElement("div");
     leftSide.classList.add("content-leftside");
 
-    const h2 = document.createElement("h2");
-    h2.textContent = "The Ultimate";
+    const span = document.createElement("span");
+    span.textContent = "The Ultimate";
 
-    const h1 = document.createElement("h1");
-    h1.textContent = "Burger Club";
+    const h2 = document.createElement("h2");
+    h2.textContent = "Burger Club";
 
     const p = document.createElement("p");
     p.textContent = "Savor the Flavor, Join the Club!";
@@ -38,8 +38,8 @@ export default function loadHome() {
         featuredDiv.appendChild(a);
     });
 
+    leftSide.appendChild(span);
     leftSide.appendChild(h2);
-    leftSide.appendChild(h1);
     leftSide.appendChild(p);
     leftSide.appendChild(featuredDiv);
 
