@@ -1,3 +1,4 @@
 import "./style.css";
+import loadHome from "./home.js";
 
-console.log("Test");
+loadHome();
