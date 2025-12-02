@@ -1,8 +1,8 @@
-import frame5 from "./img/Frame 5.png";
-import frame6 from "./img/Frame 6.png";
-import frame7 from "./img/Frame 7.png";
-import frame8 from "./img/Frame 8.png";
-import mainBurger from "./img/Default_burger_cinematic_and_of_different_types_flying_burger_1-removebg-preview 1.png";
+import frame5 from "./img/home-tab/Frame 5.png";
+import frame6 from "./img/home-tab/Frame 6.png";
+import frame7 from "./img/home-tab/Frame 7.png";
+import frame8 from "./img/home-tab/Frame 8.png";
+import mainBurger from "./img/home-tab/Default_burger_cinematic_and_of_different_types_flying_burger_1-removebg-preview 1.png";
 
 export default function loadHome() {
     const content = document.getElementById("content");
@@ -57,5 +57,6 @@ export default function loadHome() {
 
     homeDiv.appendChild(leftSide);
     homeDiv.appendChild(rightSide);
+    
     content.appendChild(homeDiv);
 }
