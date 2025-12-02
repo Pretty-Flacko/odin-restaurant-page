@@ -9,6 +9,9 @@ export default function loadHome() {
 
     content.innerHTML = "";
 
+    const homeDiv = document.createElement("div");
+    homeDiv.classList.add("home-tab");
+
     const leftSide = document.createElement("div");
     leftSide.classList.add("content-leftside");
 
@@ -52,6 +55,7 @@ export default function loadHome() {
 
     rightSide.appendChild(mainImg);
 
-    content.appendChild(leftSide);
-    content.appendChild(rightSide);
+    homeDiv.appendChild(leftSide);
+    homeDiv.appendChild(rightSide);
+    content.appendChild(homeDiv);
 }
