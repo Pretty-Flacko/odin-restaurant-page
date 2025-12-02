@@ -14,14 +14,21 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px 0;
+    position: relative;
+}
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 30px;
 }
 header h1 {
     font-size: 2rem;
 }
 header nav button {
-    margin-left: 1rem;
     background: none;
     border: 1px solid #fbfada;
     color: #fbfada;
