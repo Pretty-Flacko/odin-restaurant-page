@@ -5,10 +5,10 @@ import loadAbout from "./about.js";
 
 const homeBtn = document.getElementById("btn-home");
 const menuBtn = document.getElementById("btn-menu");
-// const aboutBtn = document.getElementById("btn-about");
+const aboutBtn = document.getElementById("btn-about");
 
 homeBtn.addEventListener("click", loadHome);
 menuBtn.addEventListener("click", loadMenu);
+aboutBtn.addEventListener("click", loadAbout);
 
-// loadHome();
-loadAbout();
+loadHome();
