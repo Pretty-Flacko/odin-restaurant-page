@@ -1,6 +1,7 @@
 import "./style.css";
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
+import loadAbout from "./about.js";
 
 const homeBtn = document.getElementById("btn-home");
 const menuBtn = document.getElementById("btn-menu");
@@ -9,4 +10,5 @@ const menuBtn = document.getElementById("btn-menu");
 homeBtn.addEventListener("click", loadHome);
 menuBtn.addEventListener("click", loadMenu);
 
-loadHome();
+// loadHome();
+loadAbout();
